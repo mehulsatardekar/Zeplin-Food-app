@@ -23,12 +23,9 @@ const Navbar = () => {
   };
 
   const isLogincheck = () => {
-    if (auth.username) {
-      logoutUser();
-    } else {
-      loginUser();
+     (auth.username) ? logoutUser() : loginUser()
     }
-  };
+  
 
   return (
     <nav className="navbar navbar-fixed flex flex-wrap flex-between  navbar-bg nav-zindex">
