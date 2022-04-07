@@ -1,0 +1,32 @@
+[
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647594553/Offers-imgs/fish-discounts_s6d4wp.png",
+    "alt": "60%-Discounts",
+    "id": 1
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647594549/Offers-imgs/holi-offer_jq4mkj.webp",
+    "alt": "Holi-Offer",
+    "id": 2
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647594548/Offers-imgs/chicken-sticks_hrx1pu.jpg",
+    "alt": "Chicken-Sticks",
+    "id": 3
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647594548/Offers-imgs/pizza-coup_gtuj2r.jpg",
+    "alt": "Pizza-Coups",
+    "id": 4
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647594547/Offers-imgs/pav-bhaji_dfzvwc.jpg",
+    "alt": "Pav-bhaji",
+    "id": 5
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647594547/Offers-imgs/special-offers_j9clgg.webp",
+    "alt": "Fast-Delivery",
+    "id": 6
+  }
+]
