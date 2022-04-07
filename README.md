@@ -8,9 +8,6 @@ Order food online from restaurants and get it delivered.
  
  Have a look at the live demo of [Zeplin](https://zeplinskitchen.netlify.app/).
 
-![Forks](https://img.shields.io/github/forks/rahulyadav139/palasio-reviews)
-![Stars](https://img.shields.io/github/stars/rahulyadav139/palasio-reviews)
-
 </div>
 
 ---
@@ -57,3 +54,4 @@ https://user-images.githubusercontent.com/36101139/162266057-46eddf61-5e7f-4e25-
 
 
 ---
+
