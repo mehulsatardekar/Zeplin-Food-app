@@ -1,0 +1,47 @@
+.discount-container {
+  height: 40vh;
+  background: var(--food-slider-bg);
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.cards-slider {
+  display: flex;
+  list-style: none;
+  overflow: auto;
+  margin: 0;
+  padding: 3.4rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  gap: 2rem;
+}
+
+.cards-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.left {
+  position: absolute;
+  left: 2.5rem;
+}
+
+.right {
+  position: absolute;
+  right: 1.875rem;
+}
+
+.img-dis-banner {
+  height: 16.25rem;
+  width: 16.25rem;
+  cursor: pointer;
+}
+
+.img-dis-banner:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}

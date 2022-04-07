@@ -1,0 +1,21 @@
+.food-top-brands {
+  gap: 1.25rem;
+  height: 30vh;
+  background: var(--food-top-brands);
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.img-round {
+  background: var(--col-danger-light);
+  height: 12.5rem;
+  width: 12.5rem;
+  border-radius: 50%;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
