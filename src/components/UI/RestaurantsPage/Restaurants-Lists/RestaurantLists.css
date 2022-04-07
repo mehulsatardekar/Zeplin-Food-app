@@ -1,0 +1,23 @@
+
+.restro-lists-container{
+  width: 95%;
+  margin: auto;
+}
+.card-border {
+  border: 1px solid transparent;
+}
+
+.card-border:hover {
+  border: 1px solid var(--border);
+  transition: border 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 760px) {
+  .ui-card-width-300 {
+    width: 100%;
+  }
+}
+
+.img-restros{
+  max-height: 12.313rem;
+}
