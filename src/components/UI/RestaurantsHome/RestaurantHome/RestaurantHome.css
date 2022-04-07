@@ -1,0 +1,47 @@
+:root {
+  --navbar-bg: #f2f2f2;
+  --food-slider-bg: #171a29;
+  --text-col-white: #ffffff;
+  --text-col-gray: #9ea0a6;
+  --radio-color: #4f46e5;
+  --tab-border-bottom: #6200ee;
+  --tab-ripples: #e9ddf9;
+  --tab-font: #6200ee;
+  --radio-color: #4f46e5;
+  --border: rgb(0, 0, 0, 0.2);
+  --icons-desc : #f2f2f2;
+  --card-bg:#fffefe;
+}
+
+@media screen and (min-width: 220px) and (max-width: 670px) {
+  .filters {
+    display: none;
+  }
+
+  .discount-container {
+    height: 66vh;
+    gap: 0;
+  }
+
+  .ui-card-list {
+    width: auto;
+  }
+
+  .hotelname {
+    font-size: 2em;
+  }
+
+  .txt-md {
+    font-size: 1.2em;
+  }
+  .divider {
+    display: none;
+  }
+
+  .filterbtn {
+    display: block;
+  }
+  .modal {
+    top: 4.375em;
+  }
+}
