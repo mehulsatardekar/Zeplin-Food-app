@@ -1,0 +1,27 @@
+.card-list-badge {
+  position: absolute;
+  background: var(--rating-sec);
+  top: 0.938rem;
+  color: var(--card-badge-col);
+  padding: 1px;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 220px) and (max-width: 670px) {
+  .ui-card-list {
+    width: auto;
+  }
+}
+
+.ui-card-list-content {
+  width: 58%;
+}
+
+.ui-card-list {
+  background-color: var(--card-bg);
+}
+
+@media screen and (max-width: 680px) {
+  .ui-card-list > .ui-card-list-content {
+    width: 100%;
+  }
+}

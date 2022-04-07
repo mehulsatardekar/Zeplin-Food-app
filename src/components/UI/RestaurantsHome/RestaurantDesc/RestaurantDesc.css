@@ -1,0 +1,83 @@
+.discount-container {
+  height: 35vh;
+  background: var(--food-slider-bg);
+  position: relative;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hotel-img {
+  height: 15.625rem;
+  width: 20.625rem;
+  border-radius: 7px;
+  min-width: 14.375rem;
+  min-height: 14.375rem;
+  max-height: 14.375rem;
+  max-width: 21.875rem;
+  flex: 1;
+  object-fit: cover;
+}
+
+.hotel-name {
+  font-size: 2.6rem;
+  color: var(--text-col-white);
+  font-weight: 800;
+}
+
+.hoteldesc {
+  font-size: 1.2rem;
+  color: var(--text-col-gray);
+  font-weight: 400;
+}
+
+.divider {
+  border-right: 2px solid var(--text-col-gray);
+}
+.txt-sm {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-col-gray);
+}
+
+.txt-md {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-col-white);
+}
+
+.hotel-lists {
+  width: 95%;
+  margin: auto;
+  display: flex;
+}
+
+.qg-flex-1 {
+  flex: 1;
+}
+.qg-flex-5 {
+  flex: 5;
+}
+
+.desc-iocns {
+  font-size: 1.7rem;
+  color: var(--icons-desc);
+}
+@media screen and (min-width: 220px) and (max-width: 670px) {
+  .discount-container {
+    height: 66vh;
+    gap: 0;
+  }
+
+  .hotelname {
+    font-size: 2em;
+  }
+
+  .txt-md {
+    font-size: 1.2em;
+  }
+  .divider {
+    display: none;
+  }
+}
