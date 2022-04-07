@@ -1,0 +1,63 @@
+:root {
+  --text-white: rgb(252, 252, 252);
+  --bg-form: rgb(243, 243, 243);
+}
+.login-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.banner {
+  flex: 1;
+  background: url(https://zeplins.netlify.app/public/img/background/ts.webp)
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.login-form {
+  height: 100vh;
+  flex: 1;
+  margin: auto;
+}
+
+.bg-form {
+  background: var(--bg-form);
+}
+.card-my-1 {
+  margin: 1rem;
+}
+
+.wlcom-msg {
+  color: var(--col-primary);
+}
+
+.relative {
+  position: relative;
+}
+
+.inp-abs {
+  position: absolute;
+  top: 2.813rem;
+  right: 10px;
+  cursor: pointer;
+}
+@media only screen and (min-width: 330px) and (max-width: 560px) {
+  .banner {
+    display: none;
+  }
+
+  .login-form {
+    background: url(https://zeplins.netlify.app/public/img/background/login-banner.png)
+      no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .wlcom-msg {
+    color: var(--text-white);
+    font-size: 2.1em;
+  }
+}
