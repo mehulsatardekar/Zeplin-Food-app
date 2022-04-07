@@ -1,0 +1,42 @@
+[
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647595230/TopBrands-imgs/domminoz_cbntkh.webp",
+    "alt": "Dominoz-pizza",
+    "id":1
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647595230/TopBrands-imgs/Merwans_cmiwes.avif",
+    "alt": "Merwans-Bakers",
+    "id":2
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647595230/TopBrands-imgs/starbuck_agcfe7.webp",
+    "alt": "Starbucks",
+    "id":3
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647595230/TopBrands-imgs/subway_pu7hg7.webp",
+    "alt": "Subway",
+    "id":4
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647595230/TopBrands-imgs/waffel_pgtrdy.webp",
+    "alt": "Belgian-Waffels",
+    "id":5
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647595231/TopBrands-imgs/baskin-robbins_yxyhhw.avif",
+    "alt": "Baskin-Robbins",
+    "id":6
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647596328/TopBrands-imgs/mc-donald_ru9nmv.avif",
+    "alt": "Mc-Donald",
+    "id":7
+  },
+  {
+    "imgUrl": "https://res.cloudinary.com/dwhsfh3sc/image/upload/v1647596306/TopBrands-imgs/burget-king_aaujg9.avif",
+    "alt": "Burger-King",
+    "id":8
+  }
+]

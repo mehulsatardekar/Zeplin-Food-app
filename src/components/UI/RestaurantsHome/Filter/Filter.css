@@ -1,0 +1,15 @@
+.filters {
+  width: 25%;
+  height: 75vh;
+  min-height: 12.5rem;
+  overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 15%;
+}
+
+@media screen and (min-width: 220px) and (max-width: 670px) {
+  .filters {
+    display: none;
+  }
+}

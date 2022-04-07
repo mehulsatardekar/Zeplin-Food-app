@@ -1,0 +1,49 @@
+.food-search-container {
+  height: 50vh;
+  background-image: url("https://zeplins.netlify.app/public/img/background/food-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.banner-head-txt {
+  font-size: 4.2rem;
+}
+
+.food-banner-text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.input-w {
+  width: 36%;
+}
+
+.input {
+  outline: none;
+  border: 0;
+}
+
+@media screen and (max-width: 760px) {
+  .input-w {
+    width: 80%;
+  }
+
+  .food-banner-text {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 330px) and (max-width: 560px) {
+  .food-search-container {
+    height: 40vh;
+    padding-top: 2em;
+  }
+  .food-banner-text {
+    font-size: 1.3em;
+  }
+
+  .banner-head-txt {
+    font-size: 3.2em;
+  }
+}

@@ -1,0 +1,59 @@
+:root{
+    --skeleton-bg:lightgray;
+}
+.skeleton-animate {
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 80%
+    ),
+    var(--skeleton-bg);
+  background-repeat: repeat-y;
+  background-size: 3.125rem 31.25rem;
+  background-position: 0 0;
+  animation: shine 1.3s infinite;
+}
+
+.skeleton-img {
+  width: 100%;
+  border-radius: 5px;
+  background-color:var(--skeleton-bg);
+  height: 9.375rem;
+}
+
+.skeleton-text {
+  background-color:var(--skeleton-bg);
+  width: 100%;
+  height: 1.875rem;
+}
+
+.skeleton-desc {
+  background-color:var(--skeleton-bg);
+  width: 80%;
+  height: 1.25rem;
+}
+
+.skeleton-icon {
+  background-color:var(--skeleton-bg);
+  height: 10px;
+  width: 1.25rem;
+}
+
+.skeleton-hotel-price {
+  background-color:var(--skeleton-bg);
+  width: 80%;
+  height: 1.25rem;
+}
+
+.skeleton-btn {
+  background-color:var(--skeleton-bg);
+  width: 80%;
+  height: 1.25rem;
+}
+
+@keyframes shine {
+  to {
+    background-position: 100% 0, 0, 0;
+  }
+}

@@ -1,0 +1,13 @@
+.bg-gray {
+  background: var(--bg-gray);
+}
+
+.payment-bg {
+  background: var(--bg-gray);
+  color: var(--gray-text);
+}
+
+.btn-payments:hover {
+  background: var(--col-primary);
+  color: var(--col-white);
+}
