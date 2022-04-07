@@ -92,7 +92,7 @@ const Filter = () => {
         <div className="flex flex-column flex-wrap mt-1">
           <span className="font-bold py">Types</span>
 
-          {restroDishes?.types?.map((e, i) => {
+          {restroDishes?.types?.map((dish, i) => {
             return (
               <div
                 className="flex flex-wrap flex-align-item-center gap-1"
@@ -101,13 +101,13 @@ const Filter = () => {
                 <input
                   type="checkbox"
                   onChange={dishClickHandler}
-                  value={e}
+                  value={dish}
                   className="input-checkbox label-text-primary"
-                  id={e}
-                  checked={state.dishTypes.includes(e)}
+                  id={dish}
+                  checked={state.dishTypes.includes(dish)}
                 />
-                <label htmlFor={e} className="label-text">
-                  {e}
+                <label htmlFor={dish} className="label-text">
+                  {dish}
                 </label>
               </div>
             );
