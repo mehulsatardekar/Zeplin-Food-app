@@ -1,0 +1,46 @@
+@import url("https://framer-ui.netlify.app/components/framer.css");
+
+:root {
+  --bg-gray: #f8f8f8;
+  --gray-text: #696981;
+  --col-white: #ffffff;
+  --border-black: rgba(0, 0, 0, 0.2);
+  --border-black-op: rgba(0, 0, 0, 0.1);
+}
+
+.divider {
+  border-bottom: 1px solid var(--border-black);
+}
+
+.col-gray {
+  color: var(--gray-text);
+}
+
+.bg-gray {
+  background: var(--bg-gray);
+}
+
+@media screen and (min-width: 220px) and (max-width: 670px) {
+  .filters {
+    display: block;
+  }
+  .btn-sm {
+    padding: 4px;
+  }
+  .ui-card-list {
+    width: auto;
+  }
+
+  .filters {
+    width: 100%;
+    height: 60%;
+  }
+
+  .menu-lists {
+    width: 100%;
+  }
+
+  .hotel-lists {
+    flex-direction: column;
+  }
+}

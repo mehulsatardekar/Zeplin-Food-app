@@ -1,0 +1,14 @@
+.rm-inpt-spinner::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input-qty {
+  width: 3rem;
+}
+
+.empty-cart-img {
+  width: 20rem;
+  height: 20rem;
+}
