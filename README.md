@@ -1,12 +1,12 @@
 <div align="center">
 
-<img alt="zeplin" src="https://res.cloudinary.com/dwhsfh3sc/image/upload/v1649315439/Offers-imgs/zeplin-logo_onlqhj.png" width="150px" height="150px" />
+<img alt="zeplin" src="https://res.cloudinary.com/dwhsfh3sc/image/upload/v1650247934/zeplin-movies/movie-assets-imgs/MUSIC_1_zsjpzt.gif" width="150px" height="150px" />
 
-# Zeplin
+# Hulu
 
-Order food online from restaurants and get it delivered.
+A Movie Streaming webapp.
  
- Have a look at the live demo of [Zeplin](https://zeplinskitchen.netlify.app/).
+ Have a look at the live demo of [Hulu](https://hulus.netlify.app/).
 
 </div>
 
@@ -14,7 +14,13 @@ Order food online from restaurants and get it delivered.
 
 
 
-https://user-images.githubusercontent.com/36101139/162266057-46eddf61-5e7f-4e25-bdec-9a8651a0f1a8.mp4
+
+https://user-images.githubusercontent.com/36101139/163743858-37d9ebbd-f751-4a6f-8afc-d6093544a1d8.mp4
+
+
+
+
+
 
 
 
@@ -32,27 +38,24 @@ https://user-images.githubusercontent.com/36101139/162266057-46eddf61-5e7f-4e25-
 
 - Home page
 
-- Restaurnats List Pags
+- Movies Listing Pags
 
 - Restaurant Individual Page
 
-   -- filters
+   -- Movie Genre Filters
 
 
-- Cart
+- Like Videos Page
    
-   -- order Summary
-   
-   -- payment summary
 
--  Wishlist
+-  Watch Later Page
 
-    -- Add Dish to whislist
+- History Page
 
-
-- Skeleton Loading
+- PlayList Page
+     
+     - Playlist Sections 
+     - Movies Card by Playlists.
 
 
 ---
-
-You can find Figma screen of this Food app here  [Figma-Zeplin](https://www.figma.com/file/rkUSx6jmX3kbJuc4bKgifI/Zeplin-Food-app?node-id=0%3A1)
