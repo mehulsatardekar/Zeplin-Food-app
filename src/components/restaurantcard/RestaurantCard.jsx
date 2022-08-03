@@ -23,7 +23,7 @@ const RestaurantCard = () => {
             >
               <div className="flex relative">
                 <img
-                  src={reataurant.imgurl}
+                  src={`https://images.weserv.nl/?url=${reataurant.imgurl}`}
                   alt={reataurant.hotelName}
                   loading="lazy"
                   className="ui-card-img img-restros"

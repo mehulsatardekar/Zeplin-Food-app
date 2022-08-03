@@ -8,8 +8,9 @@ const RestaurantDescription = () => {
       <div className="qg-flex-1 width-full pt-1 pb-1 flex flex-wrap">
         <img
           className="hotel-img"
-          src={restroDishes.imgurl}
+          src={`https://images.weserv.nl/?url=${restroDishes.imgurl}`}
           alt={restroDishes.hotelName}
+          loading="lazy"
         />
       </div>
 

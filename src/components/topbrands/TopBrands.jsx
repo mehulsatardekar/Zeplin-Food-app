@@ -33,7 +33,7 @@ const TopBrands = () => {
                 <li>
                   <img
                     className="img-round shadow-sm"
-                    src={brands.imgUrl}
+                    src={`https://images.weserv.nl/?url=${brands.imgUrl}`}
                     alt={brands.alt}
                     loading="lazy"
                   />

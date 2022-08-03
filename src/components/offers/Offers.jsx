@@ -30,7 +30,7 @@ const Offers = () => {
               <li>
                 <img
                   className="img-dis-banner"
-                  src={offer.imgUrl}
+                  src={`https://images.weserv.nl/?url=${offer.imgUrl}`}
                   alt={offer.alt}
                   loading="lazy"
                 />

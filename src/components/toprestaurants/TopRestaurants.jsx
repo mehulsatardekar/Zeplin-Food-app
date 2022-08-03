@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import {useEffect } from "react";
+import { useEffect } from "react";
 
 import "./TopRestaurants.css";
 import { Title, SkeletonCard } from "../../components";
@@ -28,7 +28,7 @@ const TopRestaurants = () => {
               >
                 <div className="flex">
                   <img
-                    src={restaurants.imgurl}
+                    src={`https://images.weserv.nl/?url=${restaurants.imgurl}`}
                     alt={restaurants.hotelName}
                     className="ui-card-img img-restros"
                   />

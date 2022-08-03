@@ -90,7 +90,11 @@ const RestaurantDishes = () => {
                 key={e.id}
               >
                 <div className="ui-card-list-img relative">
-                  <img src={e.imgurl} alt={e.name} loading="lazy" />
+                  <img
+                    src={`https://images.weserv.nl/?url=${e.imgurl}`}
+                    alt={e.name}
+                    loading="lazy"
+                  />
                   <div className="card-list-badge">
                     <span>Pro- Get 20% off</span>
                   </div>
