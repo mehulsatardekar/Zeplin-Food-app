@@ -85,6 +85,16 @@ export function makeServer({ environment = "development" } = {}) {
         "/user/wishlist/:productId",
         removeItemFromWishlistHandler.bind(this)
       );
+      this.passthrough(
+        "https://moftydykbkezmjrwylif.supabase.co",
+        "https://moftydykbkezmjrwylif.supabase.co/rest/v1",
+        "https://moftydykbkezmjrwylif.supabase.co/rest/v1/users_credentials",
+        ["post"]
+      );
+      this.passthrough(
+        "https://moftydykbkezmjrwylif.supabase.co/rest/v1/users_credentials",
+        ["get"]
+      );
     },
   });
 }

@@ -1,15 +1,17 @@
-import { createContext } from "react";
-import RestaurantListHook from "../../Hooks/Restaurants/Restaurantlist";
+import { createContext, useContext } from "react";
+import { useRestaurantList } from "../../Hooks";
+
 const RestroHome = createContext();
 
-const RestaurantsData = ({children})=>{
-    const {restaurants,setRestaurants,productFetch} = RestaurantListHook();
-    const defaultValue = {restaurants,setRestaurants,productFetch}
+const RestaurantsContextData = ({ children }) => {
+  const { restaurants, setRestaurants, productFetch } = useRestaurantList();
+  const defaultValue = { restaurants, setRestaurants, productFetch };
 
-    return(
-        <RestroHome.Provider value={defaultValue}>
-          {children}
-        </RestroHome.Provider>
-    )
-}
-export {RestroHome, RestaurantsData};
+  return (
+    <RestroHome.Provider value={defaultValue}>{children}</RestroHome.Provider>
+  );
+};
+
+const useRestroHome = () => useContext(RestroHome);
+
+export { useRestroHome, RestaurantsContextData };

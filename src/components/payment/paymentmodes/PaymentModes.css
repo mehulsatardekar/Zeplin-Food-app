@@ -1,0 +1,7 @@
+:root {
+  --btn-disabled-bg: #4d4dd691;
+}
+.payment-btn-disabled {
+  background: var(--btn-disabled-bg);
+  border: none;
+}

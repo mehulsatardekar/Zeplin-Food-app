@@ -1,6 +1,6 @@
-import { createContext, useReducer } from "react";
+import { createContext, useContext, useReducer } from "react";
 
-const FilterContext = createContext();
+const FilterContext = createContext(null);
 
 const initialvalue = {
   selectType: "",
@@ -45,7 +45,7 @@ const categoryReducer = (state, action) => {
   }
 };
 
-const FilterData = ({ children }) => {
+const FilterContextData = ({ children }) => {
   const [state, dispatch] = useReducer(categoryReducer, initialvalue);
 
   return (
@@ -55,4 +55,5 @@ const FilterData = ({ children }) => {
   );
 };
 
-export { FilterContext, FilterData };
+const useFilterContext = () => useContext(FilterContext);
+export { useFilterContext, FilterContextData };

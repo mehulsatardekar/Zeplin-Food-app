@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from "react";
+import React, { createContext, useContext, useReducer } from "react";
 
 const CartContext = createContext();
 
@@ -81,11 +81,11 @@ const cartReducer = (state, action) => {
       };
 
     default:
-      throw new Error('dispatch not found');
+      throw new Error("dispatch not found");
   }
 };
 
-const CartData = ({ children }) => {
+const CartContextData = ({ children }) => {
   const [cartState, cartDispatch] = useReducer(cartReducer, initialValue);
   return (
     <CartContext.Provider value={{ cartState, cartDispatch }}>
@@ -94,4 +94,5 @@ const CartData = ({ children }) => {
   );
 };
 
-export { CartContext, CartData };
+const useCart = () => useContext(CartContext);
+export { useCart, CartContextData };

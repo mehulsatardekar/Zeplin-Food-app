@@ -1,14 +1,22 @@
-import React, { useContext } from "react";
+import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import Routings from "./components/Routes/Routings.jsx";
-import { AuthData } from "./contexts/AuthContext/AuthContext.js";
+import {
+  AuthContextData,
+  ToastContextData,
+  CartContextData,
+} from "./contexts/";
+import { Routing } from "./routes/Routing";
 function App() {
   return (
     <React.Fragment>
       <Router>
-        <AuthData>
-          <Routings />
-        </AuthData>
+        <ToastContextData>
+          <AuthContextData>
+            <CartContextData>
+              <Routing />
+            </CartContextData>
+          </AuthContextData>
+        </ToastContextData>
       </Router>
     </React.Fragment>
   );
