@@ -7,9 +7,13 @@ const RestaurantCard = () => {
   const { restaurants, productFetch, setRestaurants } = useRestroHome();
 
   useEffect(() => {
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       productFetch();
     }, 1200);
+
+    return () => {
+      clearTimeout(timer);
+    };
   }, [setRestaurants]);
 
   return (

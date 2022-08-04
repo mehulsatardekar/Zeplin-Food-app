@@ -44,7 +44,7 @@ const Amounts = () => {
         <span className="font-md-light">SubTotal</span>
         <span>
           <span>&#x20b9;</span>
-          <span>{total}</span>
+          <span>{total && total.toFixed(2)}</span>
         </span>
       </div>
 
@@ -60,7 +60,7 @@ const Amounts = () => {
         <span className="font-md-light">Grand Total</span>
         <span>
           <span>&#x20b9;</span>
-          <span>{grandTotal}</span>
+          <span>{grandTotal && grandTotal.toFixed(2)}</span>
         </span>
       </div>
     </>

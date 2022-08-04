@@ -12,7 +12,7 @@ const Signup = () => {
   const { currentUser } = useAuth();
   useEffect(() => {
     if (currentUser) {
-      navigate("/dashboard", { replace: true });
+      navigate("/", { replace: true });
     }
   }, []);
 

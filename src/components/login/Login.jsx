@@ -29,7 +29,6 @@ const Login = () => {
   };
 
   const loginFormData = async (values) => {
-    console.log(values);
     try {
       const { user, session, error } = await supabase.auth.signIn({
         email: values.email,
@@ -67,8 +66,6 @@ const Login = () => {
           setCurrentUser(session);
         }
         if (location.state) {
-          console.log("huree");
-
           navigate(location?.state?.from?.pathname, { replace: true });
         } else {
           navigate("/");

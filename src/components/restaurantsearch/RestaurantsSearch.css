@@ -23,6 +23,37 @@
   outline: none;
   border: 0;
 }
+.optionlist {
+  margin-top: 2px;
+  background: #ffff;
+  color: black;
+  width: 36%;
+  border-radius: 5px;
+  height: 10rem;
+  padding: 6px 1rem;
+  overflow-y: scroll;
+}
+
+.optionlist ::-webkit-scrollbar {
+  width: 12px;
+}
+.optionlist ::-webkit-scrollbar-track {
+  background: orange; /* color of the tracking area */
+}
+.menubtn {
+  position: relative;
+  cursor: pointer;
+}
+
+.ico {
+  position: absolute;
+  left: -2.3rem;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
 
 @media screen and (max-width: 760px) {
   .input-w {
@@ -32,11 +63,15 @@
   .food-banner-text {
     font-size: 1.5em;
   }
+
+  .optionlist {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 330px) and (max-width: 560px) {
   .food-search-container {
-    height: 40vh;
+    height: 50vh;
     padding-top: 2em;
   }
   .food-banner-text {
