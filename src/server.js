@@ -86,13 +86,13 @@ export function makeServer({ environment = "development" } = {}) {
         removeItemFromWishlistHandler.bind(this)
       );
       this.passthrough(
-        "https://moftydykbkezmjrwylif.supabase.co",
-        "https://moftydykbkezmjrwylif.supabase.co/rest/v1",
-        "https://moftydykbkezmjrwylif.supabase.co/rest/v1/users_credentials",
+        "https://wfkbjvcizbwbkklvmeep.supabase.co/",
+        "https://wfkbjvcizbwbkklvmeep.supabase.co/rest/v1",
+        "https://wfkbjvcizbwbkklvmeep.supabase.co/rest/v1/users_credentials",
         ["post"]
       );
       this.passthrough(
-        "https://moftydykbkezmjrwylif.supabase.co/rest/v1/users_credentials",
+        "https://wfkbjvcizbwbkklvmeep.supabase.co/rest/v1/*",
         ["get"]
       );
     },
