@@ -30,10 +30,11 @@ const Signup = () => {
         password: values.password,
       });
 
-      console.log(user);
       if (error) throw error;
-      notifySuccess("Account created successfully");
-      navigate("/", { replace: true });
+      notifySuccess(
+        "Account created successfully.. Lets login with the created id.."
+      );
+      navigate("/login", { replace: true });
       try {
         const timestamp = new Date().toLocaleString();
         const { data, error } = await supabase.from("users_credentials").insert(
